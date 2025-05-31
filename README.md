@@ -12,7 +12,7 @@ If you want smaller binaries then use `-DCMAKE_BUILD_TYPE=MinSizeRel` instead of
 set CMAKE_PREFIX_PATH=C:\\Qt\\Qt5.0.1\\5.0.1\\msvc2010\\
 set CMAKE_PREFIX_PATH=C:\Qt\Tools\mingw730_64
 
-# Dependecies
+# Dependencies
 - On Ubuntu : build-essential, cmake, libgcrypt20-dev, qt5-default, qttools5-dev
 
 # Packaging
