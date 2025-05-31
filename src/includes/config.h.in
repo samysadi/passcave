@@ -1,0 +1,13 @@
+// Configuration settings
+#define passcave_VERSION_MAJOR @passcave_VERSION_MAJOR@
+#define passcave_VERSION_MINOR @passcave_VERSION_MINOR@
+#define passcave_AUTHOR "@passcave_AUTHOR@"
+#define passcave_AUTHOR_MAIL "@passcave_AUTHOR_MAIL@"
+#define passcave_APPLICATION_NAME "@passcave_APPLICATION_NAME@"
+#define passcave_ORGANIZATION "@passcave_ORGANIZATION@"
+#define passcave_DOMAIN "@passcave_DOMAIN@"
+#define passcave_COPYRIGHT_YEAR "@passcave_COPYRIGHT_YEAR@"
+
+#define GCRYPT_MINIMUM_VERSION "1.5.0"
+
+#define passcave_PARANOID_MEMORY_MANAGEMENT

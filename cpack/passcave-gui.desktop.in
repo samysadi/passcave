@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=passcave-gui %F
+Name=Passcave Gui
+Icon=passcave
+Terminal=false
+Categories=Utility;Viewer;
+MimeType=application/passcave-xpc;

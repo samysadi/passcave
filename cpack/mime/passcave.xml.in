@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="application/passcave-xpc">
+		<comment>@passcave_APPLICATION_NAME@ file</comment>
+		<acronym>XPC</acronym>
+		<expanded-acronym>XML PassCave document</expanded-acronym>
+		<generic-icon name="passcave-document"/>
+		<glob pattern="*.xpc"/>
+	</mime-type>
+</mime-info>

@@ -1,0 +1,16 @@
+pkgname=@passcave_APPLICATION_NAME_NORMALIZED@
+pkgver=@passcave_VERSION_MAJOR@.@passcave_VERSION_MINOR@
+pkgrel=@passcave_COMPILE_TIME@
+pkgdesc="@passcave_APPLICATION_DESCRIPTION@"
+arch=('@CPACK_MAKEPKG_PACKAGE_ARCHITECTURE@')
+url="http://@passcave_DOMAIN@"
+license=('@passcave_LICENSE_DES@')
+groups=()
+depends=('libgcrypt>=1.6.0' 'qt5-base')
+makedepends=()
+provides=('@passcave_APPLICATION_NAME_NORMALIZED@')
+
+package() {
+	cd ../
+	make "DESTDIR=$pkgdir" install
+}

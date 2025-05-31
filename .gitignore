@@ -1,0 +1,7 @@
+/.cache
+/build
+/win
+/tmp
+/_unused
+/.vscode
+/src/converters

@@ -1,0 +1,12 @@
+CompileFlags:
+    Add:
+        - "-Wpedantic"
+        - "-std=c++17"
+
+InlayHints:
+    BlockEnd: Yes
+    Designators: Yes
+    Enabled: No
+    ParameterNames: Yes
+    DeducedTypes: Yes
+    TypeNameLimit: 24

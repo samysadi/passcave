@@ -1,0 +1,59 @@
+---
+Checks:
+  [
+    "clang-diagnostic-*",
+    "clang-analyzer-*",
+    "boost-*",
+    "bugprone-*",
+    "cert-*",
+    "concurrency-*",
+    "cppcoreguidelines-*",
+    "darwin-*",
+    "google-*",
+    "hicpp-*",
+    "linuxkernel-*",
+    "misc-*",
+    "modernize-*",
+    "performance-*",
+    "portability-*",
+    "readability-*",
+    "fuchsia-default-arguments-declarations",
+    "-bugprone-easily-swappable-parameters",
+    "-boost-use-ranges",
+    "-cppcoreguidelines-avoid-do-while",
+    "-cppcoreguidelines-avoid-magic-numbers",
+    "-cppcoreguidelines-avoid-non-const-global-variables",
+    "-cppcoreguidelines-macro-usage",
+    "-cppcoreguidelines-non-private-member-variables-in-classes",
+    "-cppcoreguidelines-pro-type-reinterpret-cast",
+    "-cppcoreguidelines-pro-type-union-access",
+    "-google-build-using-namespace",
+    "-google-readability-todo",
+    "-misc-include-cleaner",
+    "-misc-non-private-member-variables-in-classes",
+    "-modernize-pass-by-value",
+    "-modernize-use-nodiscard",
+    "-modernize-use-trailing-return-type",
+    "-modernize-use-using",
+    "-performance-avoid-endl",
+    "-performance-enum-size",
+    "-readability-avoid-nested-conditional-operator",
+    "-readability-convert-member-functions-to-static",
+    "-readability-else-after-return",
+    "-readability-function-cognitive-complexity",
+    "-readability-identifier-length",
+    "-readability-implicit-bool-conversion",
+    "-readability-magic-numbers",
+    "-readability-use-anyofallof",
+    "-readability-use-std-min-max",
+  ]
+WarningsAsErrors: ""
+HeaderFilterRegex: "src/.*"
+SystemHeaders: false
+CheckOptions:
+  cppcoreguidelines-pro-type-member-init.IgnoreArrays: true
+  hicpp-member-init.IgnoreArrays: true
+  hicpp-signed-bitwise.IgnorePositiveIntegerLiterals: true
+  misc-include-cleaner.IgnoreHeaders: "/usr/include/.*;SDL2/.*;boost/.*"
+---
+

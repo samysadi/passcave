@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="icon32.png">../../data/icon-32x32.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="icon128.png">../../data/icon-128x128.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="addNode64.png">../../data/addNode-64x64.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="addNode64h.png">../../data/addNode-64x64h.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="removeNode64.png">../../data/removeNode-64x64.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="removeNode64h.png">../../data/removeNode-64x64h.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="editNode64.png">../../data/editNode-64x64.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="editNode64h.png">../../data/editNode-64x64h.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="eye64.png">../../data/eye-64x64.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="eye64h.png">../../data/eye-64x64h.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="close.png">../../data/close.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="close-inactive.png">../../data/close-inactive.png</file>
+    </qresource>
+</RCC>
